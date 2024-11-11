@@ -1,0 +1,7 @@
+-- init.sql
+
+CREATE TABLE IF NOT EXISTS commands (
+    id SERIAL PRIMARY KEY,
+    command TEXT UNIQUE NOT NULL,
+    timestamp TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP
+);
