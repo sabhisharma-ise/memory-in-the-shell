@@ -28,8 +28,6 @@ Example command to search history:
 curl -X GET http://localhost:8080/api/v1/commands?keyword=ls
 ```
 
-> :warning: Should we enforce a minimum length for the command?
-
 ## Prerequisites
 
 To run this application, you’ll need:
