@@ -40,8 +40,8 @@ To run this application, you’ll need:
 1. Clone the repository:
 
 ```bash
-git clone -b dev https://github.com/sabhisharma-ise/swe-intern-problem-1.git
-cd swe-intern-problem-1
+git clone https://github.com/sabhisharma-ise/memory-in-the-shell.git
+cd memory-in-the-shell
 ```
 2. Set up environment variables: Create a `.env` file in the root directory with your PostgreSQL configuration:
 
@@ -69,11 +69,7 @@ DB_NAME=your_database_name
     - Start a PostgreSQL database and initialize it with the required table structure.
     - Start the Express server.
 
-2. Access the Application:
-
-    - The API will be available at http://localhost:3000.
-
-3. Stopping the application: To stop the application, press Ctrl+C in the terminal where it’s running, then run:
+2. Stopping the application: To stop the application, press Ctrl+C in the terminal where it’s running, then run:
 
     ```bash
     docker-compose down
